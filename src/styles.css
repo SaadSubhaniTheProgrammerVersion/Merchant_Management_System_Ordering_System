@@ -1,0 +1,112 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+
+/* You can add global styles to this file, and also import other style files */
+* You can add global styles to this file, and also import other style files */
+body {
+     
+   }
+   
+/* body {
+    background: url(../bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}  */
+
+
+form div.input-field input{
+    padding-left: 35px;
+    color: #34ddcf;
+    margin-left:250px;
+    
+}
+
+input.ng-invalid.ng-dirty{
+    border-bottom-color : #e91e63 !important;
+    box-shadow: 0 1px 0 0 #e91e63 !important;
+}
+
+.input-field>label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:white;
+}
+
+.btn-custom,.btn-custom:hover,.btn-custom:focus{
+    background-color: transparent;
+    font-size: 1.1rem;
+    margin : 0px 5px;
+    border: #fff solid 2px ;
+    text-transform:none;
+}
+
+/* div.card{
+    background-color : #083045;
+    border-radius: 10px;
+} */
+
+.vl {
+    border-left: 2px solid #9e9e9e;
+    height: 400px;
+}
+
+a.action-btn{
+    color: #9e9e9e ;
+    margin: 0px 5px;
+
+}
+a.action-btn:hover{
+    cursor: pointer;
+}
+
+#toast-container {
+    top: auto !important;
+    right: auto !important;
+    bottom: 10%;
+    left:45%
+  }
+
+  
+  #modal-container {
+   
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  #modal-content {
+    width: 40%;
+    max-height: 80%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    text-align: center;
+  }
+  #modal-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#4065ec;
+    text-align: center;
+  }
+  
+
+
+  #modal-close-button{
+    background-color: transparent;
+    border: none;
+    color:red;
+    cursor: pointer;
+  }

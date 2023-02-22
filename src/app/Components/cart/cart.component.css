@@ -1,0 +1,11 @@
+.cent {
+    /* center the button */
+    width: 20%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+
+
+}
